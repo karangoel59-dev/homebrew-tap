@@ -9,7 +9,9 @@ class Kgmail < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    # kgmail's version is a const (can't be set via -X); std_go_args already
+    # adds -s -w unless HOMEBREW_DEBUG_SYMBOLS is set.
+    system "go", "build", *std_go_args
   end
 
   test do

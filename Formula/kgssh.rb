@@ -9,7 +9,8 @@ class Kgssh < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}")
+    # std_go_args already adds -s -w unless HOMEBREW_DEBUG_SYMBOLS is set.
+    system "go", "build", *std_go_args(ldflags: "-X main.version=#{version}")
   end
 
   test do
