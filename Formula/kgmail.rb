@@ -1,8 +1,8 @@
 class Kgmail < Formula
   desc "Multi-account email CLI and Model Context Protocol (MCP) server"
   homepage "https://github.com/karangoel59-dev/kgmail"
-  url "https://github.com/karangoel59-dev/kgmail/archive/refs/tags/v2.4.0.tar.gz"
-  sha256 "2a80c336e9d1048cf6f3333a3396c9a8489ccb9928adca475e1901c9dc86e242"
+  url "https://github.com/karangoel59-dev/kgmail/archive/refs/tags/v2.5.0.tar.gz"
+  sha256 "6804909bfc10aba209465f2c68bcfc26a7925b98a332d374be7d3edaf0ba0f56"
   license "MIT"
   head "https://github.com/karangoel59-dev/kgmail.git", branch: "main"
 
