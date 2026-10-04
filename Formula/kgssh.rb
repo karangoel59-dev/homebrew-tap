@@ -1,8 +1,8 @@
 class Kgssh < Formula
   desc "SSH alias manager and Model Context Protocol (MCP) server"
   homepage "https://github.com/karangoel59-dev/kgssh"
-  url "https://github.com/karangoel59-dev/kgssh/archive/refs/tags/v2.1.2.tar.gz"
-  sha256 "cb3f33a9dccbb33f443d4d4d19c4571e4c068c2bc52017dfd6ff09b897b73db3"
+  url "https://github.com/karangoel59-dev/kgssh/archive/refs/tags/v2.1.3.tar.gz"
+  sha256 "92ac95f52730b658c3bf968d06966141d89cb41cc5d67e5b2203a5b8e498109b"
   license "MIT"
   head "https://github.com/karangoel59-dev/kgssh.git", branch: "master"
 
